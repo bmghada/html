@@ -1,3 +1,14 @@
-p{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+a href{
+    display: inline red;
+}
+*{
+    font-family: Roboto;
+}
+.class{
     color: red;
 }
+p{
+    color: brown;
+}
+
