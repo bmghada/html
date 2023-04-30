@@ -5,53 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="index.css">
+    <style>
+       p{
+        color: red;
+       }
+    </style>
 </head>
 <body>
     <header>
         <nav>
             <a href="home">home</a>
-            <a href="about">about</a>
-            <a href="work">work</a>
-            <a href=" resume">resume</a>
+            <a href="#about">about</a>
+            <a href="#work">work</a>
+            <a href="#resume">resume</a>
             <a href="#contact">contact</a>            
         </nav>
     </header>
     <main>
         <section>
-            <h1>home</h1>
+            <h1 style="color: red;">home</h1>
             <title>gomycode</title>
         </section>
         <section>
+            <a name="about"></a>
             <h2>about</h2>
             <img src="./images/gmc.png" alt="">
-            
+            <p>index</p>
         </section>
         <section>
+            <a name="work"></a>
             <h3>work</h3>
            <table border="1">
                <tr>
-                <th>name</th>
-                <th>phone</th>
-                <th>email</th>
+                <th class="test1">name</th>
+                <th class="test2">phone</th>
+                <th class="test3">email</th>
                </tr>     
                <tr>
               <td>xx</td>
               <td>0215589</td>
-              <td>xx@gmail.com</td>
-
-
-               </tr>
+              <td>xx@gmail.com </tr>
            </table>
-
-        </section>
+                <table border="1">
+                    <tr><th>html</th><th>css</th><th>javascript</th></tr 
+                        <tr><th>html</th><th>css</th><th>javascript</th></tr    
         <section>
+            <a name="resume"> </a>
             <h4>resume</h4>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/olJOZp57FWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
         <section>
             <a name="contact"> </a>
             <h5>contact</h5>
+        </section>
+        <section>
+            <ol type="A">
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+            </ol>
+            <ul type="square">
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+               
+
+            </ul>
         </section>
     </main>
     <footer
