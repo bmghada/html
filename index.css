@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.all{
+    display: inline-block;
+    width: 40%;
+    background: yellow;
+}
+
+
+@media screen and (max-width:300px){
+    .all{
+        display: block;
+        width: 100%;
+    }
+}
+    
+
 a href{
     display: inline red;
 }
@@ -10,5 +25,60 @@ a href{
 }
 p{
     color: brown;
+}
+h1{
+    color: red;
+    font-family: roboto;
+    text-align: center;
+}
+.box p {
+    color: red;
+}
+article > p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+h1 +p {
+font-weight: bold;
+background-color: #333;
+color: #fff;
+padding: .5em;
+}
+.rectangle{
+height: 200px;px;
+width: 200px;
+border:3px black solid;
+text-align: center;
+background-image: url(images/gmc.png);
+background-size: 100px 100px;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center;
+}
+.container{
+    background-color: red;
+}
+.container div{
+  display: inline-block;
+  width: 23%;
+}
+.code1{
+    background-color: yellow;
+    width: 50px;
+    text-align: center;
+}
+.code2{
+    background-color: green;
+    width: 50px;
+    top: 20px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
 }
 
